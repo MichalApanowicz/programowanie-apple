@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B84B516F21B568F9008C213D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B516E21B568F9008C213D /* AppDelegate.swift */; };
+		B84B517121B568F9008C213D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B84B517021B568F9008C213D /* GameScene.sks */; };
+		B84B517321B568F9008C213D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B84B517221B568F9008C213D /* Actions.sks */; };
+		B84B517521B568F9008C213D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B517421B568F9008C213D /* GameScene.swift */; };
+		B84B517721B568F9008C213D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B517621B568F9008C213D /* GameViewController.swift */; };
+		B84B517A21B568F9008C213D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84B517821B568F9008C213D /* Main.storyboard */; };
+		B84B517C21B568FA008C213D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84B517B21B568FA008C213D /* Assets.xcassets */; };
+		B84B517F21B568FA008C213D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84B517D21B568FA008C213D /* LaunchScreen.storyboard */; };
+		B84B518A21B568FA008C213D /* peaceful_birdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B518921B568FA008C213D /* peaceful_birdsTests.swift */; };
+		B84B519521B568FA008C213D /* peaceful_birdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84B519421B568FA008C213D /* peaceful_birdsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B84B518621B568FA008C213D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84B516321B568F9008C213D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84B516A21B568F9008C213D;
+			remoteInfo = "peaceful-birds";
+		};
+		B84B519121B568FA008C213D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B84B516321B568F9008C213D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84B516A21B568F9008C213D;
+			remoteInfo = "peaceful-birds";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B84B516B21B568F9008C213D /* peaceful-birds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "peaceful-birds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84B516E21B568F9008C213D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B84B517021B568F9008C213D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B84B517221B568F9008C213D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B84B517421B568F9008C213D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B84B517621B568F9008C213D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B84B517921B568F9008C213D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B84B517B21B568FA008C213D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B84B517E21B568FA008C213D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B84B518021B568FA008C213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84B518521B568FA008C213D /* peaceful-birdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peaceful-birdsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84B518921B568FA008C213D /* peaceful_birdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peaceful_birdsTests.swift; sourceTree = "<group>"; };
+		B84B518B21B568FA008C213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84B519021B568FA008C213D /* peaceful-birdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peaceful-birdsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84B519421B568FA008C213D /* peaceful_birdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peaceful_birdsUITests.swift; sourceTree = "<group>"; };
+		B84B519621B568FA008C213D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B84B516821B568F9008C213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518221B568FA008C213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518D21B568FA008C213D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B84B516221B568F9008C213D = {
+			isa = PBXGroup;
+			children = (
+				B84B516D21B568F9008C213D /* peaceful-birds */,
+				B84B518821B568FA008C213D /* peaceful-birdsTests */,
+				B84B519321B568FA008C213D /* peaceful-birdsUITests */,
+				B84B516C21B568F9008C213D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B84B516C21B568F9008C213D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B84B516B21B568F9008C213D /* peaceful-birds.app */,
+				B84B518521B568FA008C213D /* peaceful-birdsTests.xctest */,
+				B84B519021B568FA008C213D /* peaceful-birdsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B84B516D21B568F9008C213D /* peaceful-birds */ = {
+			isa = PBXGroup;
+			children = (
+				B84B516E21B568F9008C213D /* AppDelegate.swift */,
+				B84B517021B568F9008C213D /* GameScene.sks */,
+				B84B517221B568F9008C213D /* Actions.sks */,
+				B84B517421B568F9008C213D /* GameScene.swift */,
+				B84B517621B568F9008C213D /* GameViewController.swift */,
+				B84B517821B568F9008C213D /* Main.storyboard */,
+				B84B517B21B568FA008C213D /* Assets.xcassets */,
+				B84B517D21B568FA008C213D /* LaunchScreen.storyboard */,
+				B84B518021B568FA008C213D /* Info.plist */,
+			);
+			path = "peaceful-birds";
+			sourceTree = "<group>";
+		};
+		B84B518821B568FA008C213D /* peaceful-birdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B84B518921B568FA008C213D /* peaceful_birdsTests.swift */,
+				B84B518B21B568FA008C213D /* Info.plist */,
+			);
+			path = "peaceful-birdsTests";
+			sourceTree = "<group>";
+		};
+		B84B519321B568FA008C213D /* peaceful-birdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B84B519421B568FA008C213D /* peaceful_birdsUITests.swift */,
+				B84B519621B568FA008C213D /* Info.plist */,
+			);
+			path = "peaceful-birdsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B84B516A21B568F9008C213D /* peaceful-birds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84B519921B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birds" */;
+			buildPhases = (
+				B84B516721B568F9008C213D /* Sources */,
+				B84B516821B568F9008C213D /* Frameworks */,
+				B84B516921B568F9008C213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "peaceful-birds";
+			productName = "peaceful-birds";
+			productReference = B84B516B21B568F9008C213D /* peaceful-birds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B84B518421B568FA008C213D /* peaceful-birdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84B519C21B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birdsTests" */;
+			buildPhases = (
+				B84B518121B568FA008C213D /* Sources */,
+				B84B518221B568FA008C213D /* Frameworks */,
+				B84B518321B568FA008C213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84B518721B568FA008C213D /* PBXTargetDependency */,
+			);
+			name = "peaceful-birdsTests";
+			productName = "peaceful-birdsTests";
+			productReference = B84B518521B568FA008C213D /* peaceful-birdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B84B518F21B568FA008C213D /* peaceful-birdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B84B519F21B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birdsUITests" */;
+			buildPhases = (
+				B84B518C21B568FA008C213D /* Sources */,
+				B84B518D21B568FA008C213D /* Frameworks */,
+				B84B518E21B568FA008C213D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B84B519221B568FA008C213D /* PBXTargetDependency */,
+			);
+			name = "peaceful-birdsUITests";
+			productName = "peaceful-birdsUITests";
+			productReference = B84B519021B568FA008C213D /* peaceful-birdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B84B516321B568F9008C213D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michał";
+				TargetAttributes = {
+					B84B516A21B568F9008C213D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B84B518421B568FA008C213D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B84B516A21B568F9008C213D;
+					};
+					B84B518F21B568FA008C213D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B84B516A21B568F9008C213D;
+					};
+				};
+			};
+			buildConfigurationList = B84B516621B568F9008C213D /* Build configuration list for PBXProject "peaceful-birds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B84B516221B568F9008C213D;
+			productRefGroup = B84B516C21B568F9008C213D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84B516A21B568F9008C213D /* peaceful-birds */,
+				B84B518421B568FA008C213D /* peaceful-birdsTests */,
+				B84B518F21B568FA008C213D /* peaceful-birdsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B84B516921B568F9008C213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84B517A21B568F9008C213D /* Main.storyboard in Resources */,
+				B84B517121B568F9008C213D /* GameScene.sks in Resources */,
+				B84B517C21B568FA008C213D /* Assets.xcassets in Resources */,
+				B84B517F21B568FA008C213D /* LaunchScreen.storyboard in Resources */,
+				B84B517321B568F9008C213D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518321B568FA008C213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518E21B568FA008C213D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B84B516721B568F9008C213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84B517521B568F9008C213D /* GameScene.swift in Sources */,
+				B84B517721B568F9008C213D /* GameViewController.swift in Sources */,
+				B84B516F21B568F9008C213D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518121B568FA008C213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84B518A21B568FA008C213D /* peaceful_birdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84B518C21B568FA008C213D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B84B519521B568FA008C213D /* peaceful_birdsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B84B518721B568FA008C213D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84B516A21B568F9008C213D /* peaceful-birds */;
+			targetProxy = B84B518621B568FA008C213D /* PBXContainerItemProxy */;
+		};
+		B84B519221B568FA008C213D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B84B516A21B568F9008C213D /* peaceful-birds */;
+			targetProxy = B84B519121B568FA008C213D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B84B517821B568F9008C213D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84B517921B568F9008C213D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B84B517D21B568FA008C213D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B84B517E21B568FA008C213D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B84B519721B568FA008C213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B84B519821B568FA008C213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B84B519A21B568FA008C213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B84B519B21B568FA008C213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birds/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birds";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B84B519D21B568FA008C213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birdsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peaceful-birds.app/peaceful-birds";
+			};
+			name = Debug;
+		};
+		B84B519E21B568FA008C213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birdsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birdsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peaceful-birds.app/peaceful-birds";
+			};
+			name = Release;
+		};
+		B84B51A021B568FA008C213D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "peaceful-birds";
+			};
+			name = Debug;
+		};
+		B84B51A121B568FA008C213D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76YX7HD772;
+				INFOPLIST_FILE = "peaceful-birdsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UMK.peaceful-birdsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "peaceful-birds";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B84B516621B568F9008C213D /* Build configuration list for PBXProject "peaceful-birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84B519721B568FA008C213D /* Debug */,
+				B84B519821B568FA008C213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84B519921B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84B519A21B568FA008C213D /* Debug */,
+				B84B519B21B568FA008C213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84B519C21B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84B519D21B568FA008C213D /* Debug */,
+				B84B519E21B568FA008C213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B84B519F21B568FA008C213D /* Build configuration list for PBXNativeTarget "peaceful-birdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B84B51A021B568FA008C213D /* Debug */,
+				B84B51A121B568FA008C213D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B84B516321B568F9008C213D /* Project object */;
+}
