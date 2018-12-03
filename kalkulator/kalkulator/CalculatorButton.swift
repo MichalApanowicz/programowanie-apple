@@ -14,12 +14,14 @@ class CalculatorButton: UIButton {
     var number: Int?
     
     required init(number: Int?, symbol: String?) {
-        self.number = number
-        
         super.init(frame: .zero)
+        self.number = number
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.darkGray.cgColor
     }
     
     func setProperties(number: Int? = nil) -> Void {

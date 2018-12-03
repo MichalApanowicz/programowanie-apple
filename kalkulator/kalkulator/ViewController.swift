@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     private func getStringFromOptional(_ optional: Double?) -> String {
         if let value = optional {
-            return String(value)
+            return String(format: "%.0f", value)
         }
         return ""
     }
@@ -76,9 +76,10 @@ class ViewController: UIViewController {
         button_sub.setProperties(operation: CalculatorOperation.substract, symbol: "-")
         button_multiply.setProperties(operation: CalculatorOperation.multiply, symbol: "*")
         button_division.setProperties(operation: CalculatorOperation.division, symbol: "/")
+        
+        InputTextField.font = UIFont.systemFont(ofSize: 68, weight: UIFont.Weight(rawValue: 300))
+        InputTextField.textAlignment = .right
     }
-
-    
     
     private func makeOperation(){
         let value0 = state.0 ?? 0
@@ -126,5 +127,16 @@ class ViewController: UIViewController {
         operation = nil;
         symbol = ""
         state = (nil,nil);
+    }
+    
+    @IBAction func CommaButtonClick(_ sender: Any) {
+        
+    }
+    @IBAction func changeToOppositeNumber(_ sender: Any) {
+        if operation == nil {
+            state.0 = (state.0 ?? 0) * (-1.0)
+        } else {
+            state.1 = (state.1 ?? 0) * (-1.0)
+        }
     }
 }

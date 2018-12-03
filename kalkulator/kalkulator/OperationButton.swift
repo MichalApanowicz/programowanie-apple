@@ -30,6 +30,10 @@ class OperationButton: UIButton {
     }
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        
+        self.contentEdgeInsets = UIEdgeInsets.init(top: CGFloat(10),  left: CGFloat(10), bottom: CGFloat(10), right: CGFloat(10))
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.darkGray.cgColor
     }
     
     func setProperties(operation: CalculatorOperation? = nil, symbol: String? = nil) -> Void {
